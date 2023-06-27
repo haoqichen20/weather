@@ -5,7 +5,7 @@ A general description of weather.
 
 ## Constructing the package.
 
-Start a new project
+[Bash]Start a new project
 
 ```bash
 Conda activate TechTalk
@@ -18,6 +18,7 @@ Create a new cli.py file in the weather directory:
 ```bash
 touch weather/cli.py
 ```
+
 
 ```python
 def cli():
