@@ -130,6 +130,12 @@ cli()
 
 ## Building, installing, publishing
 
+**Python**  // 0. Before building the library, we need to specify what functions should be available to the users. Paste below to weather/__init__.py:
+
+```python
+from .get_weather_metric import get_weather_metric
+```
+
 **Bash**    // 1. Now we can build our library:
 ```bash
 poetry build
@@ -148,7 +154,8 @@ weather temperature --latitude=23.12 --longitude=113.26
 
 **Python**  // 4. And you have make a "package" that can be imported.
 ```bash
-touch test_weather.ipynb
+mkdir temp #It's important that the .ipynb is not in the project directory (where pyproject.toml is located), otherwise it would just import from the weather folder, instead of from the installed package!
+touch temp/test_weather.ipynb
 ```
 
 ```python
@@ -160,3 +167,6 @@ get_weather_metric("temperature", 52.19, 0.13)
 ```bash
 poetry publish
 ```
+
+## Acknowledgement
+The above tutorial is largely based on: https://medium.com/clarityai-engineering/how-to-create-and-distribute-a-minimalist-cli-tool-with-python-poetry-click-and-pipx-c0580af4c026. Large thanks to the author Álvaro Martínez.
