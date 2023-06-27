@@ -5,7 +5,7 @@ A general description of weather.
 
 ## Constructing the package.
 
-**Bash**        1. Start a new project. Note the folder structure that is created.
+**Bash**     // 1. Start a new project. Note the folder structure that is created.
 ```bash
 Conda activate TechTalk
 poetry new weather
