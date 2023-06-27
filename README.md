@@ -5,20 +5,20 @@ A general description of weather.
 
 ## Constructing the package.
 
-**Bash**    1. Start a new project. Note the folder structure that is created.
+**Bash**        1. Start a new project. Note the folder structure that is created.
 ```bash
 Conda activate TechTalk
 poetry new weather
 cd weather
 ```
 
-**Bash**    2. Create a new cli.py file in the weather directory. This will be our first "entry point" of the package.
+**Bash**        2. Create a new cli.py file in the weather directory. This will be our first "entry point" of the package.
 ```bash
 touch weather/cli.py
 open weather/cli.py
 ```
 
-**Python**  3. Paste the following in cli.py. Note the following line, it judges whether the file is run by a Python interpreter.
+**Python**      3. Paste the following in cli.py. Note the following line, it judges whether the file is run by a Python interpreter.
 
 if __name__ == "__main__":
 
