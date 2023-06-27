@@ -3,8 +3,17 @@
 
 A general description of weather.
 
-## Installation
+## Constructing the package.
 
 ```bash
-pip install weather
+Conda activate TechTalk
+poetry new weather
+cd weather
 ```
+
+Create a new cli.py file in the weather directory:
+
+```bash
+touch weather/cli.py
+```
+
