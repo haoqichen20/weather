@@ -5,7 +5,7 @@ A general description of weather.
 
 ## Constructing the package.
 
-[Bash]Start a new project
+__[Bash]__Start a new project
 
 ```bash
 Conda activate TechTalk
