@@ -99,6 +99,9 @@ if __name__ == "__main__":
     cli()
 ```
 
+
+## Testing the package.
+
 **Bash**    Now, your package should be more useful. Try run the following, and it should give you the real-time temperature.
 ```bash
 # Cambridge temperature
@@ -125,6 +128,8 @@ from .cli import cli
 cli()
 ```
 
+## Building and installing the package.
+
 **Bash**    Now we can build our library:
 ```bash
 poetry build
@@ -150,6 +155,9 @@ touch test_weather.ipynb
 from weather import get_weather_metric
 get_weather_metric("temperature", 52.19, 0.13)
 ```
+
+
+## Publishing the package.
 
 **Bash**    Finally, you need to register for a PyPI account, set up the credential stuff, and you can publish your package! Package name do need to be unique.
 ```bash
