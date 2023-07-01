@@ -1,7 +1,14 @@
 ### weather: a package to get weather information.
 ---
 
-A general description of weather.
+This is a tutorial for how to build a python package with console application using Poetry. 
+
+The example package built can report live time weather information for a given latitude/longitude.
+
+
+## Acknowledgement
+The above tutorial is largely based on: https://medium.com/clarityai-engineering/how-to-create-and-distribute-a-minimalist-cli-tool-with-python-poetry-click-and-pipx-c0580af4c026. Many thanks to the author Álvaro Martínez.
+
 
 ## Constructing the package.
 
@@ -167,6 +174,3 @@ get_weather_metric("temperature", 52.19, 0.13)
 ```bash
 poetry publish
 ```
-
-## Acknowledgement
-The above tutorial is largely based on: https://medium.com/clarityai-engineering/how-to-create-and-distribute-a-minimalist-cli-tool-with-python-poetry-click-and-pipx-c0580af4c026. Many thanks to the author Álvaro Martínez.
