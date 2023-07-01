@@ -1,4 +1,4 @@
-### weather: a package to get weather information.
+# weather: a package to get weather information.
 ---
 
 This is a tutorial for how to build a python package with console application using Poetry. 
